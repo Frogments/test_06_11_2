@@ -17,7 +17,7 @@ int main()
                           // a              2               a           3
         scanf("%c%c%c%c", &(curPos.X), &(curPos.Y), &(targetPos.X), &(targetPos.Y));
         while(getchar() != '\n');
-                            //a2
+                            //a2 // a3
         piece = choicePiece(curPos);
                                             // a2P   a2      a3
         allPieces[piece.number] = movePiece(piece,curPos, targetPos);
